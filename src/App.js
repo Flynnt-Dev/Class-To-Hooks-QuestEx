@@ -16,7 +16,6 @@ export default function App() {
       setName(e.target.value);
     } else if (e.target.name === "email") {
       setEmail(e.target.value);
-    }
   }
 
   return (
